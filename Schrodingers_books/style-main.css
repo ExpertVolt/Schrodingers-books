@@ -1,0 +1,52 @@
+body    {
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+   }
+.header{
+    background-color: rgb(200, 200, 200);
+    width: 1880px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 50px;
+}
+
+.logo-text{
+    padding-left: 20px;
+    font-family:'Lucida Sans', Verdana;
+    
+}
+
+.btn{
+    background: transparent;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.all-btn{
+    padding-left: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+h1{
+    color: white;
+    padding-left: 50px;
+    
+}
+
+.text{
+    color: white;
+    padding-left: 300px;
+    padding-top: 50px;
+}

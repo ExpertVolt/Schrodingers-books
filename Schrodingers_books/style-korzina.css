@@ -1,0 +1,67 @@
+body    {
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+   }
+.header{
+    background-color: rgb(200, 200, 200);
+    width: 1880px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 50px;
+}
+
+.btn{
+    background: transparent;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.all-btn{
+    padding-left: 1270px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+h1{
+    color: white;
+    padding-left: 50px;
+    
+}
+
+.fild-book{
+    background-color: rgb(200, 200, 200);
+    width: 1780px;
+    height: 500px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.down-of-site{
+    background-color: rgb(154, 154, 154);
+    width: 1880px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.logo-text{
+    padding-left: 20px;
+    font-family:'Lucida Sans', Verdana;
+    
+}

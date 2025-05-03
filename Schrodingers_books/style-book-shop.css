@@ -1,0 +1,151 @@
+body    {
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+   }
+.header{
+    background-color: rgb(200, 200, 200);
+    width: 1880px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    padding-left: 50px;
+}
+
+.btn{
+    background: transparent;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.all-btn{
+    padding-left: 1270px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+h1{
+    color: white;
+    padding-left: 50px;
+    
+}
+
+.fild-book{
+    background-color: rgb(200, 200, 200);
+    width: 1780px;
+    height: 500px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.down-of-site{
+    background-color: rgb(154, 154, 154);
+    width: 1880px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.logo-text{
+    padding-left: 20px;
+    font-family:'Lucida Sans', Verdana;
+    
+}
+
+.card-header{
+    background-color: rgb(200, 198, 198);
+    width: 1600px;
+    height: 500px;
+    border-radius:20px; 
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+/* Основные стили карточки */
+.card {
+    background: rgb(200, 198, 198);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Скрываем чекбокс */
+.expand-toggle {
+    display: none;
+}
+
+/* Стрелка (без SVG) */
+.arrow {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.arrow::before, .arrow::after {
+    content: '';
+    position: absolute;
+    background: #333;
+    width: 12px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+}
+
+.arrow::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+    margin-left: -4px;
+}
+
+.arrow::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    margin-left: 4px;
+}
+
+/* Содержимое карточки (изначально скрыто) */
+.card-content {
+    max-height: 0;
+    padding: 0 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Состояние раскрытия */
+.expand-toggle:checked ~ .card-content {
+    max-height: 200px;
+    padding: 0 15px 15px;
+}
+
+.expand-toggle:checked ~ .card-header .arrow::before {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.expand-toggle:checked ~ .card-header .arrow::after {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.expand-toggle:checked ~ .card-header {
+    padding-bottom: 10px;
+}
+
+.img-book{
+    margin-top: 200px;
+}
